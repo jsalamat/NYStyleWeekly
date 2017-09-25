@@ -13,6 +13,11 @@ a {
   color: #c00;
 }
 
+.shiver > *{
+  display: block;
+  position: relative;
+}
+
 
 /*end of shiver texts effect*/
 body {
