@@ -13,20 +13,19 @@ a {
   color: #c00;
 }
 
-.shiver > *{
-  display: block;
+.shiver li, {
   position: relative;
 }
 
-.shiver > *:hover{
-  animation: shiver .15s infinite;
+.shiver li:hover{
+  animation: shiver .30s infinite;
 }
 
 @keyframes shiver {
-  0% {left: 0;}
-  25% {left: -5px;}
-  75% {left: 5px;}
-  100% {left: 0;}
+  0% {top: 0;}
+  25% {top: -5px;}
+  75% {top: 5px;}
+  100% {top: 0;}
 }
 
 .btn {
@@ -37,20 +36,20 @@ a {
       transition: background .5s; 
     }
 
-    .nav { 
+    nav { 
       background: #000;
       height: 80px; 
       width: 100%;
     }
 
-    .nav ul {
+    nav ul {
       height: 80px;
       list-style: none;
       margin: 0 auto; 
       padding: 0;
     }
 
-    .nav ul li {
+    nav ul li {
       color: #fff;
       display: inline-block; 
       height: 80px;
@@ -60,8 +59,9 @@ a {
       transition: background .5s; 
     }
 
-    .btn:hover, .nav ul li:hover {
+    .btn:hover, nav ul li:hover {
       background: #ffcd3e;
+      color: #000;
       cursor: pointer; 
       transition: background .5s;  
     }
